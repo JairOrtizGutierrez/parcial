@@ -1,0 +1,81 @@
+#weird-article {
+    height: calc(100vh - 158px);
+}
+
+article #presentation span {
+    font-size: 14px;
+    color: var(--color3);
+}
+
+article #health > div > div > div > i,
+article #news > div > div > div > i {
+    font-size: 60px;
+}
+
+article #health > div > div > div > span,
+article #news > div > div > div > span {
+    font-size: 14px;
+    color: var(--color3);
+}
+
+article .list-group-item {
+    border-color: var(--color3);
+    border-radius: 0px !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: var(--color3);
+}
+
+article .list-group-item.active {
+    background-color: var(--color3);
+    border-color: var(--color3);
+}
+
+article #social-images {
+    cursor: pointer;
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 0;
+}
+
+#background-image img {
+    margin: auto;
+}
+
+/*-- responsive --*/
+
+@media screen and (max-width: 1199px) {
+    
+    
+    
+}
+
+@media screen and (max-width: 991px) {
+    
+    #weird-article {
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+    
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+    
+    
+}

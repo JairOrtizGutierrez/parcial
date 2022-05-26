@@ -1,0 +1,5 @@
+article #quote span {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--color1);
+}

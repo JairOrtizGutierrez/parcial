@@ -1,0 +1,17 @@
+article #form label {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: var(--color1) !important;
+}
+
+article #form input, article #form textarea {
+    border-color: var(--color1) !important;
+    border-radius: 0px !important;
+}
+
+article #form button {
+    font-size: 15px;
+    border-radius: 0px;
+    background-color: var(--color1);
+    color: #fff;
+}
